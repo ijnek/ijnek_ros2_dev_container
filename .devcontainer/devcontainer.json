@@ -1,6 +1,6 @@
 {
   "name": "ijnek_dev_container",
-  "image": "ghcr.io/ijnek/ijnek_ros2_image@sha256:a0f551ba609c620b719ed0d52601f5f1b5e43bec7a50d99ffc8292249d778fc7",
+  "image": "ghcr.io/ijnek/ijnek_ros2_image:main",
   "runArgs": [
     "--privileged",
     "--network=host",
