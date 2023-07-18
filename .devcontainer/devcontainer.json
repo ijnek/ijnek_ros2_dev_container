@@ -4,9 +4,11 @@
   "runArgs": [
     "--privileged",
     "--network=host",
+    "--group-add", "rdma",
   ],
   "workspaceFolder": "/home/vscode/ws",
   "mounts": [
-    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.bash_history,target=/home/vscode/.bash_history,type=bind"
+    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.bash_history,target=/home/vscode/.bash_history,type=bind",
+    "source=/run/udev/data,target=/run/udev/data,type=bind,consistency=cached",
   ]
 }
