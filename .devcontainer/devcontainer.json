@@ -1,5 +1,5 @@
 {
-  "name": "ijnek_dev_container",
+  "name": "ijnek_ros2_dev_container",
   "image": "ghcr.io/ijnek/ijnek_ros2_image:main",
   "runArgs": [
     "--privileged",
